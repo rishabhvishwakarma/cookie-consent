@@ -19,9 +19,8 @@ consentForm.addEventListener('submit', function(e){
         <p id="upload-text">Uploading your data to the dark web...</p>
     </div>` 
    
-const uploadText = document.querySelector("#upload-text")
 setTimeout(function(){
-    uploadText.textContent = "Making the sale..."
+    document.querySelector("#upload-text").textContent = "Making the sale..."
 },1500)
 
 })
